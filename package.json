@@ -1,0 +1,22 @@
+{
+  "name": "node-first-steps",
+  "version": "1.0.0",
+  "description": "basic node.js",
+  "main": "countAllFromTown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyllon21/node-first-steps.git"
+  },
+  "author": "dyllon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyllon21/node-first-steps/issues"
+  },
+  "homepage": "https://github.com/dyllon21/node-first-steps#readme",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}

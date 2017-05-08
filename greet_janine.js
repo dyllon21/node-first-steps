@@ -9,7 +9,6 @@
 //
 // console.log(greet('Janine'));
 //Run it using NodeJS, node greet_janine.js. You should see the same output as before.
-
 //styling greeting
 const chalk = require('chalk');
 
