@@ -4,12 +4,16 @@
   "description": "basic node.js",
   "main": "countAllFromTown.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ".node_modules/bin/mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dyllon21/node-first-steps.git"
   },
+  "devDependencies": {
+    "mocha":"3.3.0"
+  },
+
   "author": "dyllon",
   "license": "ISC",
   "bugs": {
