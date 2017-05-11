@@ -6,6 +6,7 @@ var itemList = [
     { name : 'apples',  price   : 3  },
 ];
 
+module.exports = function(itemList){
 //function
 function findItemsOver20(list) {
     var itemsOver = [];
@@ -15,17 +16,15 @@ function findItemsOver20(list) {
         var price = listName.price;
 
         if (list[i].price > 20) {
-            itemsOver.push({
-                'Item': listName
+            listName.push({
+                'item': itemsOver
             });
         }
     }
 
     return itemsOver;
 };
-
-var msg = findItemsOver20('itemList, 20');
-console.log(findItemsOver20(itemList, 20));
-// console.log(findItemsOver20);
+};
 
 //log output
+// console.log(findItemsOver20(itemList, 20));

@@ -1,8 +1,10 @@
-const assert = require('assert');
+//const assert = require('assert');
 
 // var Paarl = []
 
-var countAllPaarl = function(array) {
+module.exports = function(array){
+
+// var countAllPaarl = function(array) {
     var numPlates = array.split(',')
     var regNumbers = [];
     for (var i = 0; i < numPlates.length; i++) {
@@ -17,8 +19,6 @@ var countAllPaarl = function(array) {
     return regNumbers.length
         // return Paarl
 }
-var msg = countAllPaarl('CJ 456,CJ 123')
-console.log(msg);
-assert.equal(countAllPaarl('CJ 456,CJ 123'), 2);
+// assert.equal(countAllPaarl('CJ 456,CJ 123'), 2);
 //console.log(countAllPaarl('CJ 456,CJ 123'));
 //Contact GitHub API Training Shop Blog About

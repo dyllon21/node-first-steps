@@ -1,4 +1,6 @@
-var countAllFromTown = function(regNum, location) {
+
+module.exports = function(regNum, location){
+// var countAllFromTown = function(regNum, location) {
     var splitReg = regNum.split(',');
 
     var townList = [];
@@ -14,7 +16,5 @@ var countAllFromTown = function(regNum, location) {
 
     return newList.length;
 }
-var msg = countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341', 'CL')
-console.log(msg)
 
-//console.log(countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341', 'CL'));
+// console.log(countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341', 'CL'));
